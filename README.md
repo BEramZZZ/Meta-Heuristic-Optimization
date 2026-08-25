@@ -22,11 +22,11 @@ Starting from Algiers, visit each of 19 other major Algerian cities exactly once
 
 | Method              | Best length (km) |
 | ------------------- | ---------------: |
-| Random Search       |             4268 |
-| Hill Climbing       |             2863 |
-| Simulated Annealing |         **2353** |
-| Tabu Search         |         **2353** |
-| Genetic Algorithm   |             3526 |
+| Random Search       |             3898 |
+| Hill Climbing       |             2493 |
+| Simulated Annealing |             2762 |
+| Tabu Search         |             2483 |
+| Genetic Algorithm   |         **2379** |
 
 Simulated Annealing and Tabu Search converge to the same tour length, suggesting this is close to (or is) the global optimum for this instance. The Genetic Algorithm underperforms Hill Climbing here — plausibly explained by weak mutation (a single swap, low probability) and no local-search refinement step, which is a known and expected trade-off for a "vanilla" GA on small TSP instances without a memetic/hybrid component.
 
